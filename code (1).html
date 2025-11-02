@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Roger Soluções</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        nav {
+            background-color: #003366;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #FFD700;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        header {
+            background-color: #003366;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .portfolio-item {
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .portfolio-item img, .portfolio-item video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background-color: #FFD700;
+            color: #003366;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <header>
+        <h1>Portfólio</h1>
+        <p>Explore meus trabalhos em design gráfico, motion design e materiais corporativos.</p>
+    </header>
+
+    <section class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="placeholder-logo-cafeteria.jpg" alt="Logo para Cafeteria">
+            <h3>Logo para Cafeteria</h3>
+            <p>Desenvolvi um logo minimalista para uma cafeteria local, utilizando tons quentes como marrom e laranja para evocar conforto. O design inclui uma xícara estilizada e tipografia arredondada, transmitindo acolhimento e qualidade. Resultado: Aumento de 20% no reconhecimento da marca após implementação.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="placeholder-logo-startup.jpg" alt="Logo para Startup de Tecnologia">
+            <h3>Logo para Startup de Tecnologia</h3>
+            <p>Para uma startup de tecnologia, criei uma identidade visual moderna com elementos geométricos e cores vibrantes (azul e verde). O logo simboliza inovação e eficiência, adaptado para uso digital e impresso. Projeto entregue em 5 dias, com feedback positivo do cliente sobre escalabilidade.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="placeholder-logo-clinica.jpg" alt="Logo para Clínica de Estética">
+            <h3>Logo para Clínica de Estética</h3>
+            <p>Design sofisticado para uma clínica de estética, focando em elegância com paleta de cores suaves (rosa e branco) e tipografia serifada. Incluiu variações para cartões de visita e site. O cliente relatou maior confiança dos pacientes após o rebranding.</p>
+        </div>
+        <div class="portfolio-item">
+            <video controls width="100%">
+                <source src="placeholder-motion-design.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+            <h3>Mini Vídeo de Animação</h3>
+            <p>Animação em motion design para intro de marca em redes sociais, com duração de 10 segundos. Utilizei transições suaves, efeitos de luz e música de fundo para engajar o público. Produzido em After Effects, ideal para campanhas virais.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="placeholder-flyer.jpg" alt="Flyer de Propaganda">
+            <h3>Flyer de Propaganda</h3>
+            <p>Flyer promocional para um evento de lançamento de produto, com layout atrativo incluindo imagens de alta resolução, chamadas visuais e QR code para mais informações. Distribuído digitalmente, gerando 500 leads iniciais.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="placeholder-carta-convite.jpg" alt="Carta de Convite">
+            <h3>Carta de Convite para Contratos/Parcerias</h3>
+            <p>Carta formal em estilo corporativo para convites a parcerias, com design elegante, tipografia profissional (Arial e Times New Roman) e elementos visuais como bordas douradas. Personalizada para cada cliente, reforçando credibilidade e profissionalismo.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Roger Soluções. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

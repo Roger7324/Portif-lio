@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Roger Soluções</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        nav {
+            background-color: #003366;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #FFD700;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        header {
+            background-color: #003366;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #FFFFFF;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #FFD700;
+            color: #003366;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            background-color: #FFD700;
+            color: #003366;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <header>
+        <h1>Contato</h1>
+        <p>Entre em contato para discutir seu projeto. Estou pronto para transformar suas ideias em realidade!</p>
+    </header>
+
+    <section class="contact-form">
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Ou envie um e-mail direto para: <a href="mailto:solucoesroger@gmail.com">solucoesroger@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Roger Soluções. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
